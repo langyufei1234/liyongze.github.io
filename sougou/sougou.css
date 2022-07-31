@@ -1,0 +1,154 @@
+*{
+margin: 0;
+padding:0;
+}
+  html,body{
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-family: arial;
+}
+/* 页眉 */
+.page-header nav .left{
+  display: inline-block;
+  padding-top:20px;
+  text-align: left;
+  letter-spacing: 3px;
+  text-indent: 20px;
+}
+.page-header nav a{
+  text-decoration: none;
+  color: black;
+}
+.page-header nav .right{
+  letter-spacing: 6px;
+  text-indent: 20px;
+  float: right;
+  padding-top:10px;
+}
+.page-header nav .right a:last-child{
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    background: rgb(231, 99, 12);
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+}
+/* 中间logo部分 */
+.page-mainer{
+    flex: 1;
+    text-align: center;
+    margin-top: 100px;
+}
+.page-mainer .logo-contaienr img{
+    width: 440px;
+    height: 140px;
+    margin-bottom: 25px;
+}
+.form-contaienr form{
+    display: flex;
+    justify-content: center;
+}
+.form-contaienr .form-search{
+    display: inline-block;
+    width: 489px;
+    height: 40px;
+    border: 1px solid #b6b6b6;
+    border-right: 0;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid rgb(253, 132, 3);
+}
+.form-contaienr .subimt-button{
+    width: 99px;
+    height: 42px;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: rgb(253, 132, 3);
+    border: 1px solid rgb(237, 130, 16);
+} 
+.subimt-button:hover{
+    background-color:rgb(176, 78, 12) ;
+}
+/* 页脚 */
+.page-footer{
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    overflow: hidden;
+    margin-top:300px;
+}
+.page-footer .footer-left{
+    float: left;
+    margin-left: 300px;
+    margin-top: 1px;
+    display: flex;
+    }
+.footer-left .footer-qrcode img{
+    width:100px;
+    height: 100px;
+    margin-top: 20px;
+    
+}
+ .page-footer .footer-right{
+        text-align: left;
+        float: right;
+        margin-top: 30px;
+        color: #d7caca;
+        margin-right: 30px;
+        line-height: 2;
+    }
+    .footer-right a{
+        text-decoration: none;
+        color: #b6b6b6;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .footer-left .page{
+     text-align: left;
+     margin-top: 70px;
+     margin-left: 20px;
+    }
+    .page .sou{
+        font-size: 20px;
+        font-weight: 400px;
+       }
+    .page .su{
+        font-size: 10px;
+        color: #b6b6b6;
+    }
+    .footer-right a i{
+        margin: 4px 5px 0 0;
+        display: inline-block;
+        position: relative;
+        top: 2px;
+        *top: 0;
+        width: 13px;
+        height: 14px;
+        overflow: hidden;
+        background-image: url(./3.png);
+        background-repeat: no-repeat;
+    }
+    
+    i{
+        font-style: italic;
+    }
+    .footer-right a i1{
+        background-position: 0 0;
+    }
+    
+    
+    .footer-right a i2{
+        background-position: 0 -29px;
+    }
+    
+    .footer-right a i3{
+        background-position: 0 -58px;
+    }
+    
